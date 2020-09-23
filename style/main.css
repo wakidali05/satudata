@@ -10831,6 +10831,11 @@ footer .logo-footer {
   padding-top: 20px !important;
 }
 
+footer .logo-footer img {
+  width: 180px;
+  height: auto;
+}
+
 footer .alamat {
   width: 100%;
   margin-top: 30px;
@@ -11075,6 +11080,12 @@ footer .hak-cipta p {
 .flow-tenant .alur-tenant .konten-tenant {
   padding-right: 40px;
   padding-left: 40px;
+}
+
+.flow-tenant .alur-tenant img {
+  width: 50px;
+  height: auto;
+  border-radius: 100%;
 }
 
 .produk {
