@@ -8,23 +8,24 @@
             height: auto;
         }
     }
-    .icon-produk{
-        background-image: #15406A;
+    .icon-produk {
+        background-image: #15406a;
         width: 102px;
-        height:102px ;
+        height: 102px;
         padding: 15px 15px 15px 15px;
-        img{
+        img {
             width: 50px;
             height: auto;
         }
     }
-    .icon-produk-content{
-        p{
+    .icon-produk-content {
+        p {
             font-size: medium;
             padding: 30px 20px 20px 20px;
         }
     }
 }
+
 .produk {
     .button-produk {
         .btn-primary {
@@ -38,13 +39,18 @@
             font-size: 12px;
         }
     }
-}
-@include media-breakpoint-up(lg){
-    .produk-inpage-produk{
-        margin-top: -230px;
-    }
-    .data-pencarian{
-        height: 500px;
+    h2 {
+        font-size: 20px;
+        color: #15406a;
+        font-weight: bold;
     }
 }
 
+@include media-breakpoint-up(lg) {
+    .produk-inpage-produk {
+        margin-top: -230px;
+    }
+    .data-pencarian {
+        height: 500px;
+    }
+}

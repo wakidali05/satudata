@@ -11024,7 +11024,8 @@ footer .hak-cipta p {
   .benefit .benefit-bg-1 {
     width: 100%;
     height: 550px;
-    background-image: url("/images/home/benefit-bg3.jpg");
+    background-image: url("/images/home/benefit-bg1.png");
+    background-size: cover;
     margin-left: -115px;
     margin-top: -80px;
   }
@@ -11057,7 +11058,8 @@ footer .hak-cipta p {
   .benefit .benefit-bg-3 {
     width: 100%;
     height: 650px;
-    background-image: url("/images/home/benefit-bg3.jpg");
+    background-image: url("/images/home/benefit-bg3.png");
+    background-size: cover;
     margin-left: 769px;
   }
 }
@@ -11083,7 +11085,7 @@ footer .hak-cipta p {
 }
 
 .flow-tenant .alur-tenant img {
-  width: 50px;
+  width: 130px;
   height: auto;
   border-radius: 100%;
 }
@@ -11170,6 +11172,7 @@ footer .hak-cipta p {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  background-color: #15406a;
 }
 
 .berita .card:hover {
@@ -11198,12 +11201,48 @@ footer .hak-cipta p {
 }
 
 .berita .card-body .judul-berita {
-  color: #676767;
+  color: #ffffff;
   font-size: 11px;
 }
 
 .berita .card-body h2 {
-  font-size: 25px;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.berita .buttonnext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.berita .buttonnext a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.berita .buttonnext a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.berita .buttonnext .previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.berita .buttonnext .next {
+  background-color: #15406a;
+  color: white;
+}
+
+.berita .buttonnext .round {
+  border-radius: 50%;
 }
 
 footer {
@@ -11222,7 +11261,7 @@ footer {
 }
 
 .data-pencarian .icon-produk {
-  background-image: #15406A;
+  background-image: #15406a;
   width: 102px;
   height: 102px;
   padding: 15px 15px 15px 15px;
@@ -11248,6 +11287,12 @@ footer {
   border-radius: 6px;
   opacity: 1;
   font-size: 12px;
+}
+
+.produk h2 {
+  font-size: 20px;
+  color: #15406a;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
