@@ -11420,4 +11420,30 @@ footer {
 .footer-bottom {
   margin-top: -25px;
 }
+
+.background-publikasi {
+  background-color: #12446e !important;
+}
+
+.background-publikasi .background-datbase .publikasi-module {
+  background-color: white;
+  color: #002d58;
+}
+
+.background-publikasi .background-datbase .publikasi-module a {
+  color: #002d58;
+}
+
+.background-datbase .publikasi-module {
+  background-color: white;
+  color: #002d58;
+}
+
+.background-datbase .publikasi-module a {
+  color: #002d58;
+}
+
+.footer-bottom {
+  margin-top: -25px;
+}
 /*# sourceMappingURL=main.css.map */
