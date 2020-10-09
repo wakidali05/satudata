@@ -10993,7 +10993,7 @@ footer .hak-cipta p {
   font-weight: 200;
   letter-spacing: 1.44px;
   opacity: 1;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .nav-flow {
@@ -11250,7 +11250,7 @@ footer {
 }
 
 .data-pencarian {
-  background-color: #002d58;
+  background-color: #cc2c0c;
   color: #ffffff;
   height: 630px;
 }
@@ -11400,7 +11400,7 @@ footer {
 }
 
 .background-datbase {
-  background-color: #12446e !important;
+  background-color: #cc2c0c !important;
   color: white;
   padding-top: 30px;
 }
