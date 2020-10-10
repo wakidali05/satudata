@@ -4,14 +4,13 @@
     background-size: cover;
     opacity: 1;
     width: 100%;
-    height: 620px;
+    height: 600px;
     color: #ffffff;
-    .display-4 {
-        text-align: left;
-        font-weight: 200;
-        letter-spacing: 1.44px;
-        opacity: 1;
-        margin-top: 80px;
+    .form-group {
+        @include media-breakpoint-up(lg) {
+            width: 550px;
+            margin: auto;
+        }
     }
 }
 
@@ -100,6 +99,15 @@
 }
 
 // Produk Terpopuler
+.card {
+    transition-property: height;
+    transition-duration: 0.3s;
+}
+
+.card:hover {
+    margin-top: -15px;
+}
+
 .produk {
     .card {
         /* Add shadows to create the "card" effect */

@@ -10984,16 +10984,15 @@ footer .hak-cipta p {
   background-size: cover;
   opacity: 1;
   width: 100%;
-  height: 620px;
+  height: 600px;
   color: #ffffff;
 }
 
-.jumbotron .display-4 {
-  text-align: left;
-  font-weight: 200;
-  letter-spacing: 1.44px;
-  opacity: 1;
-  margin-top: 80px;
+@media (min-width: 992px) {
+  .jumbotron .form-group {
+    width: 550px;
+    margin: auto;
+  }
 }
 
 .nav-flow {
@@ -11088,6 +11087,17 @@ footer .hak-cipta p {
   width: 130px;
   height: auto;
   border-radius: 100%;
+}
+
+.card {
+  -webkit-transition-property: height;
+  transition-property: height;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.card:hover {
+  margin-top: -15px;
 }
 
 .produk {
@@ -11287,6 +11297,10 @@ footer {
   border-radius: 6px;
   opacity: 1;
   font-size: 12px;
+}
+
+.produk .card-produk {
+  color: #15406a;
 }
 
 .produk h2 {
