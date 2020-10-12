@@ -11464,4 +11464,29 @@ footer {
 .footer-bottom {
   margin-top: -25px;
 }
+
+.tentang-page {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.tentang-page .nav-pills {
+  background-color: #e62020;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tentang-page .nav-pills .nav-link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tentang-page .nav-pills a {
+  color: #ffffff;
+}
+
+.tentang-page .nav-pills .active {
+  background-color: #9c1010;
+}
 /*# sourceMappingURL=main.css.map */
